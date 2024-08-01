@@ -18,7 +18,7 @@ public class AveWithholding {
         } else if (weeklyIncome < 1500) {
         	taxRate = 0.15;
         } else if (weeklyIncome < 2500) {
-        	taxRate = 0.25;
+        	taxRate = 0.20;
         } else {
         	taxRate = 0.3;
         }
