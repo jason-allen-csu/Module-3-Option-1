@@ -12,7 +12,8 @@ public class AveWithholding {
 		// User input for weekly salary
 		System.out.print("Enter your weekly income: ");
         weeklyIncome = scnr.nextDouble();
-        
+	scnr.close();
+		
         if (weeklyIncome < 0) {
        		System.out.println("Invalid income ");
        		return;
@@ -33,7 +34,5 @@ public class AveWithholding {
         System.out.println("Weekly Income: $" + weeklyIncome);
         System.out.println("Tax Rate: " + (taxRate * 100) + "%");
         System.out.println("Weekly Tax Withholding: $" + weeklyWithholding);
-        
-        scnr.close();
 	}
 }
